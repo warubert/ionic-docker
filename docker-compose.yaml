@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: warubert/ionic:latest
+    image: warubert/ionic:1
     container_name: ionic
     volumes:
       - ./src:/usr/src/app/src
